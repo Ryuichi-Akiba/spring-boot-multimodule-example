@@ -32,17 +32,4 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
-        <!--<plugins>-->
-            <!--<plugin>-->
-                <!--<groupId>org.springframework.boot</groupId>-->
-                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
-                <!--<version>1.2.1.RELEASE</version>-->
-                <!--<configuration>-->
-                    <!--<mainClass>org.example.boot.web.Starter</mainClass>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
-        <!--</plugins>-->
-    </build>
-
 </project>
