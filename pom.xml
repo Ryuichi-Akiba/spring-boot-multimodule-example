@@ -16,12 +16,24 @@
     </properties>
 
     <modules>
-        <module>boot-service</module>
         <module>boot-web</module>
+        <module>boot-service</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.example.boot</groupId>
+                <artifactId>boot-web</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.example.boot</groupId>
+                <artifactId>boot-service</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
